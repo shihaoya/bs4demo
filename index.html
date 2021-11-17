@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="#">某管理系统</a>
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-expanded="false">
+                    用户操作
+                </a>
+                <div class="dropdown-menu position-absolute" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="./user.html">个人中心</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./index.html">退出</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <section class="container-fluid">
+        <div class="row">
+            <ul class="col-auto position-fixed list-unstyled p-0 pt-3 left-nav">
+                <li class="active"><a class="d-block text-white text-decoration-none" href="./index.html">首页</a></li>
+                <li><a class="d-block text-white text-decoration-none" href="./user.html">用户中心</a></li>
+                <li><a class="d-block text-white text-decoration-none" href="./search.html">数据查询</a></li>
+                <li><a class="d-block text-white text-decoration-none" href="./data.html">数据面板</a></li>
+                <li><a class="d-block text-white text-decoration-none" href="./tip.html">提醒事项<span
+                            class="badge badge-pill badge-warning text-body ml-3">4</span></a></li>
+            </ul>
+            <div class="col-auto">
+                <div class="position-fixed overflow-auto right-main">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item active" aria-current="page">首页</li>
+                        </ol>
+                    </nav>
+                    <section class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg">
+                                <div class="card bg-success text-light mb-2">
+                                    <div class="card-body">
+                                        <p class="card-title">当前用户总数</p>
+                                        <p class="card-text display-3">120,123</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg">
+                                <div class="card bg-primary text-light mb-2">
+                                    <div class="card-body">
+                                        <p class="card-title">每日平均活跃用户数</p>
+                                        <p class="card-text display-3">1,123</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg">
+                                <div class="card bg-warning text-light mb-2">
+                                    <div class="card-body">
+                                        <p class="card-title">每日平均访问次数</p>
+                                        <p class="card-text display-3">3,123</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 引入bootstrap4所需的js -->
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

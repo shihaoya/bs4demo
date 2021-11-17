@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.left-nav{
+  width: 12rem;
+  top: 3.5rem;
+  bottom: 0;
+  margin-bottom: 0;
+  background: #283643;
+}
+
+.left-nav > li {
+  padding: 0 2rem;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+.left-nav > li:hover,
+.left-nav > li.active{
+  background-color: #3c4248;
+}
+
+.right-main{
+  top: 3.5rem;
+  bottom: 0;
+  left: 12rem;
+  right: 0;
+}
