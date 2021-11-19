@@ -27,35 +27,29 @@
             </li>
         </ul>
     </nav>
-    <section class="container-fluid">
-        <div class="row">
-            <ul class="col-auto position-fixed list-unstyled p-0 pt-3 left-nav">
-                <li><a class="d-block text-white text-decoration-none" href="./index.html">首页</a></li>
-                <li><a class="d-block text-white text-decoration-none" href="./user.html">用户中心</a></li>
-                <li><a class="d-block text-white text-decoration-none" href="./search.html">数据查询</a></li>
-                <li><a class="d-block text-white text-decoration-none" href="./data.html">数据面板</a></li>
-                <li class="active"><a class="d-block text-white text-decoration-none" href="./tip.html">提醒事项<span
-                            class="badge badge-pill badge-warning ml-3">4</span></a></li>
+    <ul class="position-fixed list-unstyled p-0 pt-3 left-nav">
+        <li><a class="d-block text-white text-decoration-none" href="./index.html">首页</a></li>
+        <li><a class="d-block text-white text-decoration-none" href="./user.html">用户中心</a></li>
+        <li><a class="d-block text-white text-decoration-none" href="./search.html">数据查询</a></li>
+        <li><a class="d-block text-white text-decoration-none" href="./data.html">数据面板</a></li>
+        <li class="active"><a class="d-block text-white text-decoration-none" href="./tip.html">提醒事项<span
+                    class="badge badge-pill badge-warning ml-3">4</span></a></li>
+    </ul>
+    <div class="position-fixed overflow-auto right-main">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">提醒事项</li>
+            </ol>
+        </nav>
+        <section class="container-fluid">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">我需要操作的事项1</li>
+                <li class="list-group-item">我需要操作的事项2</li>
+                <li class="list-group-item">我需要操作的事项3</li>
+                <li class="list-group-item">我需要操作的事项4</li>
             </ul>
-            <div class="col-auto">
-                <div class="position-fixed overflow-auto right-main">
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                          <li class="breadcrumb-item active" aria-current="page">提醒事项</li>
-                        </ol>
-                    </nav>
-                    <section class="container-fluid">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">我需要操作的事项1</li>
-                            <li class="list-group-item">我需要操作的事项2</li>
-                            <li class="list-group-item">我需要操作的事项3</li>
-                            <li class="list-group-item">我需要操作的事项4</li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <!-- 引入bootstrap4所需的js -->
     <script src="./js/jquery-3.6.0.js"></script>
     <script src="./js/bootstrap.min.js"></script>
